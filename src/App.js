@@ -8,7 +8,7 @@ import Appointment from './Pages/Appointment/Appointment';
 
 function App() {
   return (
-    <div> 
+    <div className='px-12 max-w-7xl mx-auto'> 
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}/>
